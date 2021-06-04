@@ -1,0 +1,154 @@
+2021-06-04 19:31:25 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at : http://localhost:8888
+2021-06-04 19:31:27 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2021-06-04 19:31:27 [main] WARN  o.s.c.c.c.ConfigServicePropertySourceLocator - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/EUREKA-SERVER/default": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information
+2021-06-04 19:31:27 [main] INFO  i.e.s.d.DiscoveryserverApplication - No active profile set, falling back to default profiles: default
+2021-06-04 19:31:28 [main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-06-04 19:31:28 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a81062f5-3535-3c7a-a388-81cc79c41d1d
+2021-06-04 19:31:28 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8000 (http)
+2021-06-04 19:31:28 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-06-04 19:31:28 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-06-04 19:31:29 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-06-04 19:31:29 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1578 ms
+2021-06-04 19:31:29 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-06-04 19:31:29 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-06-04 19:31:29 [main] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2c1d57bc
+2021-06-04 19:31:29 [main] INFO  c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2021-06-04 19:31:29 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2021-06-04 19:31:29 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2021-06-04 19:31:30 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2021-06-04 19:31:30 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2021-06-04 19:31:30 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2021-06-04 19:31:30 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-06-04 19:31:30 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-04 19:31:31 [main] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-06-04 19:31:31 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2021-06-04 19:31:31 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2021-06-04 19:31:31 [main] INFO  c.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+2021-06-04 19:31:31 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1622815291125 with initial instances count: 0
+2021-06-04 19:31:31 [main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
+2021-06-04 19:31:31 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Adding new peer nodes [http://localhost:8000/eureka/]
+2021-06-04 19:31:31 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2021-06-04 19:31:31 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2021-06-04 19:31:31 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2021-06-04 19:31:31 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2021-06-04 19:31:31 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://localhost:8000/eureka/
+2021-06-04 19:31:31 [main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+2021-06-04 19:31:31 [main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
+2021-06-04 19:31:31 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-06-04 19:31:31 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application EUREKA-SERVER with eureka with status UP
+2021-06-04 19:31:31 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+2021-06-04 19:31:31 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+2021-06-04 19:31:31 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+2021-06-04 19:31:31 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+2021-06-04 19:31:31 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+2021-06-04 19:31:31 [Thread-10] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+2021-06-04 19:31:31 [Thread-10] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+2021-06-04 19:31:31 [Thread-10] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+2021-06-04 19:31:31 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8000 (http) with context path ''
+2021-06-04 19:31:31 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8000
+2021-06-04 19:31:31 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+2021-06-04 19:31:31 [main] INFO  i.e.s.d.DiscoveryserverApplication - Started DiscoveryserverApplication in 7.546 seconds (JVM running for 8.423)
+2021-06-04 19:32:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 19:32:35 [http-nio-8000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-04 19:32:35 [http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-06-04 19:32:35 [http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 23 ms
+2021-06-04 19:33:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 19:34:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2021-06-04 19:35:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2021-06-04 19:36:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 19:37:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 9ms
+2021-06-04 19:38:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 10ms
+2021-06-04 19:39:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 7ms
+2021-06-04 19:40:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
+2021-06-04 19:40:55 [http-nio-8000-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance HRD-REIMB-BE/LAPTOP-6N5P1UJ3:hrd-reimb-be:8093 with status UP (replication=false)
+2021-06-04 19:41:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 19:42:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 12ms
+2021-06-04 19:43:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 19:43:32 [http-nio-8000-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance HRD-REIMB-BE/LAPTOP-6N5P1UJ3:hrd-reimb-be:8093 with status DOWN (replication=false)
+2021-06-04 19:43:35 [http-nio-8000-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance HRD-REIMB-BE/LAPTOP-6N5P1UJ3:hrd-reimb-be:8093 (replication=false)
+2021-06-04 19:43:42 [http-nio-8000-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance HRD-REIMB-BE/LAPTOP-6N5P1UJ3:hrd-reimb-be:8093 with status UP (replication=false)
+2021-06-04 19:44:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 19:45:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 19:46:31 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 3
+2021-06-04 19:46:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 19:47:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 19:48:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 19:49:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 19:50:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 19:51:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 19:52:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 19:53:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 19:54:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 19:55:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2021-06-04 19:56:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 19:57:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 19:58:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 19:59:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:00:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2021-06-04 20:01:31 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 3
+2021-06-04 20:01:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:02:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:03:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:04:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:05:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:06:19 [http-nio-8000-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance HRD-REIMB-BE/LAPTOP-6N5P1UJ3:hrd-reimb-be:8093 with status DOWN (replication=false)
+2021-06-04 20:06:19 [http-nio-8000-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance HRD-REIMB-BE/LAPTOP-6N5P1UJ3:hrd-reimb-be:8093 (replication=false)
+2021-06-04 20:06:24 [http-nio-8000-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance HRD-REIMB-BE/LAPTOP-6N5P1UJ3:hrd-reimb-be:8093 with status UP (replication=false)
+2021-06-04 20:06:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:07:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:07:34 [http-nio-8000-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance HRD-REIMB-BE/LAPTOP-6N5P1UJ3:hrd-reimb-be:8093 with status DOWN (replication=false)
+2021-06-04 20:07:34 [http-nio-8000-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance HRD-REIMB-BE/LAPTOP-6N5P1UJ3:hrd-reimb-be:8093 (replication=false)
+2021-06-04 20:07:39 [http-nio-8000-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance HRD-REIMB-BE/LAPTOP-6N5P1UJ3:hrd-reimb-be:8093 with status UP (replication=false)
+2021-06-04 20:08:02 [http-nio-8000-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance HRD-REIMB-BE/LAPTOP-6N5P1UJ3:hrd-reimb-be:8093 with status DOWN (replication=false)
+2021-06-04 20:08:02 [http-nio-8000-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance HRD-REIMB-BE/LAPTOP-6N5P1UJ3:hrd-reimb-be:8093 (replication=false)
+2021-06-04 20:08:07 [http-nio-8000-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance HRD-REIMB-BE/LAPTOP-6N5P1UJ3:hrd-reimb-be:8093 with status UP (replication=false)
+2021-06-04 20:08:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2021-06-04 20:08:53 [http-nio-8000-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance HRD-REIMB-BE/LAPTOP-6N5P1UJ3:hrd-reimb-be:8093 with status DOWN (replication=false)
+2021-06-04 20:08:53 [http-nio-8000-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance HRD-REIMB-BE/LAPTOP-6N5P1UJ3:hrd-reimb-be:8093 (replication=false)
+2021-06-04 20:08:58 [http-nio-8000-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance HRD-REIMB-BE/LAPTOP-6N5P1UJ3:hrd-reimb-be:8093 with status UP (replication=false)
+2021-06-04 20:09:11 [http-nio-8000-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance HRD-REIMB-BE/LAPTOP-6N5P1UJ3:hrd-reimb-be:8093 with status DOWN (replication=false)
+2021-06-04 20:09:11 [http-nio-8000-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance HRD-REIMB-BE/LAPTOP-6N5P1UJ3:hrd-reimb-be:8093 (replication=false)
+2021-06-04 20:09:16 [http-nio-8000-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance HRD-REIMB-BE/LAPTOP-6N5P1UJ3:hrd-reimb-be:8093 with status UP (replication=false)
+2021-06-04 20:09:29 [http-nio-8000-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance HRD-REIMB-BE/LAPTOP-6N5P1UJ3:hrd-reimb-be:8093 with status DOWN (replication=false)
+2021-06-04 20:09:29 [http-nio-8000-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance HRD-REIMB-BE/LAPTOP-6N5P1UJ3:hrd-reimb-be:8093 (replication=false)
+2021-06-04 20:09:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:10:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:11:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:11:38 [http-nio-8000-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance HRD-REIMB-BE/LAPTOP-6N5P1UJ3:hrd-reimb-be:8093 with status UP (replication=false)
+2021-06-04 20:12:15 [http-nio-8000-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance HRD-REIMB-BE/LAPTOP-6N5P1UJ3:hrd-reimb-be:8093 with status DOWN (replication=false)
+2021-06-04 20:12:15 [http-nio-8000-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance HRD-REIMB-BE/LAPTOP-6N5P1UJ3:hrd-reimb-be:8093 (replication=false)
+2021-06-04 20:12:20 [http-nio-8000-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance HRD-REIMB-BE/LAPTOP-6N5P1UJ3:hrd-reimb-be:8093 with status UP (replication=false)
+2021-06-04 20:12:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:13:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:14:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2021-06-04 20:15:03 [http-nio-8000-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance HRD-REIMB-BE/LAPTOP-6N5P1UJ3:hrd-reimb-be:8093 with status DOWN (replication=false)
+2021-06-04 20:15:06 [http-nio-8000-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance HRD-REIMB-BE/LAPTOP-6N5P1UJ3:hrd-reimb-be:8093 (replication=false)
+2021-06-04 20:15:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:16:31 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 1
+2021-06-04 20:16:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:17:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:18:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:19:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:20:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:21:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:22:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:23:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:24:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:25:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:26:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:27:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:28:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:29:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2021-06-04 20:30:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:31:31 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 1
+2021-06-04 20:31:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:32:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:33:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:34:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:35:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+2021-06-04 20:36:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:37:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:38:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:39:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:40:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+2021-06-04 20:41:31 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms

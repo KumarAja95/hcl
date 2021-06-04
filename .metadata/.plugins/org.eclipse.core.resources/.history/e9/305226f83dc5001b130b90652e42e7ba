@@ -1,0 +1,479 @@
+package in.ecgc.smile.erp.hrd.reimbbe.model;
+
+
+import java.math.BigDecimal;
+import java.util.List;
+
+public class LtcTxn {
+
+	int ltcTxnId;
+	
+	int ltcNo;
+	
+	String ltcFlag;
+	
+	String status;
+	
+	int empNo;
+	
+	String applicationDt;
+	
+	String blockYear;
+	
+	String leaveApplied;
+	
+	String advSettleFlag;
+	
+	String placeOfTravel;
+	
+	String ltcType;
+	
+	String onwardDtOfJourney;
+	
+	BigDecimal onwardFare;
+	
+	String returnDtOfJourney;
+	
+	BigDecimal returnFare;
+	
+	BigDecimal totalFare;
+	
+	BigDecimal amountClamied;
+	
+	BigDecimal amountApproved;
+	
+	String approvalStatus;
+	
+    int approvedBy;
+    
+    String approvedDt;
+    
+    BigDecimal billAmt;
+    
+    BigDecimal settlementAmt;
+    
+    BigDecimal adjustedAmt;
+    
+    String description;
+    
+    String journeyFrm;
+    
+    String journeyTo;
+    
+    String adviceFlag;
+    
+    String travelDetail;
+    
+    String approvRemarks;
+    
+    int yearOfTravel;
+    
+    int createdBy;
+	
+	String createdDate;
+	
+	int lastUpdateBy;
+	
+	String lastUpdateDate;
+	
+	String metaRemark;
+	
+     LtcDependent depList;
+     
+     LtcEmpTrv empTrvData;
+
+     
+     List<LtcEmpDepTrv> ltcDepList;
+
+
+	public int getLtcTxnId() {
+		return ltcTxnId;
+	}
+
+
+	public void setLtcTxnId(int ltcTxnId) {
+		this.ltcTxnId = ltcTxnId;
+	}
+
+
+	public int getLtcNo() {
+		return ltcNo;
+	}
+
+
+	public void setLtcNo(int ltcNo) {
+		this.ltcNo = ltcNo;
+	}
+
+
+	public String getLtcFlag() {
+		return ltcFlag;
+	}
+
+
+	public void setLtcFlag(String ltcFlag) {
+		this.ltcFlag = ltcFlag;
+	}
+
+
+	public String getStatus() {
+		return status;
+	}
+
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
+
+	public int getEmpNo() {
+		return empNo;
+	}
+
+
+	public void setEmpNo(int empNo) {
+		this.empNo = empNo;
+	}
+
+
+	public String getApplicationDt() {
+		return applicationDt;
+	}
+
+
+	public void setApplicationDt(String applicationDt) {
+		this.applicationDt = applicationDt;
+	}
+
+
+	public String getBlockYear() {
+		return blockYear;
+	}
+
+
+	public void setBlockYear(String blockYear) {
+		this.blockYear = blockYear;
+	}
+
+
+	public String getLeaveApplied() {
+		return leaveApplied;
+	}
+
+
+	public void setLeaveApplied(String leaveApplied) {
+		this.leaveApplied = leaveApplied;
+	}
+
+
+	public String getAdvSettleFlag() {
+		return advSettleFlag;
+	}
+
+
+	public void setAdvSettleFlag(String advSettleFlag) {
+		this.advSettleFlag = advSettleFlag;
+	}
+
+
+	public String getPlaceOfTravel() {
+		return placeOfTravel;
+	}
+
+
+	public void setPlaceOfTravel(String placeOfTravel) {
+		this.placeOfTravel = placeOfTravel;
+	}
+
+
+	public String getLtcType() {
+		return ltcType;
+	}
+
+
+	public void setLtcType(String ltcType) {
+		this.ltcType = ltcType;
+	}
+
+
+	public String getOnwardDtOfJourney() {
+		return onwardDtOfJourney;
+	}
+
+
+	public void setOnwardDtOfJourney(String onwardDtOfJourney) {
+		this.onwardDtOfJourney = onwardDtOfJourney;
+	}
+
+
+	public BigDecimal getOnwardFare() {
+		return onwardFare;
+	}
+
+
+	public void setOnwardFare(BigDecimal onwardFare) {
+		this.onwardFare = onwardFare;
+	}
+
+
+	public String getReturnDtOfJourney() {
+		return returnDtOfJourney;
+	}
+
+
+	public void setReturnDtOfJourney(String returnDtOfJourney) {
+		this.returnDtOfJourney = returnDtOfJourney;
+	}
+
+
+	public BigDecimal getReturnFare() {
+		return returnFare;
+	}
+
+
+	public void setReturnFare(BigDecimal returnFare) {
+		this.returnFare = returnFare;
+	}
+
+
+	public BigDecimal getTotalFare() {
+		return totalFare;
+	}
+
+
+	public void setTotalFare(BigDecimal totalFare) {
+		this.totalFare = totalFare;
+	}
+
+
+	public BigDecimal getAmountClamied() {
+		return amountClamied;
+	}
+
+
+	public void setAmountClamied(BigDecimal amountClamied) {
+		this.amountClamied = amountClamied;
+	}
+
+
+	public BigDecimal getAmountApproved() {
+		return amountApproved;
+	}
+
+
+	public void setAmountApproved(BigDecimal amountApproved) {
+		this.amountApproved = amountApproved;
+	}
+
+
+	public String getApprovalStatus() {
+		return approvalStatus;
+	}
+
+
+	public void setApprovalStatus(String approvalStatus) {
+		this.approvalStatus = approvalStatus;
+	}
+
+
+	public int getApprovedBy() {
+		return approvedBy;
+	}
+
+
+	public void setApprovedBy(int approvedBy) {
+		this.approvedBy = approvedBy;
+	}
+
+
+	public String getApprovedDt() {
+		return approvedDt;
+	}
+
+
+	public void setApprovedDt(String approvedDt) {
+		this.approvedDt = approvedDt;
+	}
+
+
+	public BigDecimal getBillAmt() {
+		return billAmt;
+	}
+
+
+	public void setBillAmt(BigDecimal billAmt) {
+		this.billAmt = billAmt;
+	}
+
+
+	public BigDecimal getSettlementAmt() {
+		return settlementAmt;
+	}
+
+
+	public void setSettlementAmt(BigDecimal settlementAmt) {
+		this.settlementAmt = settlementAmt;
+	}
+
+
+	public BigDecimal getAdjustedAmt() {
+		return adjustedAmt;
+	}
+
+
+	public void setAdjustedAmt(BigDecimal adjustedAmt) {
+		this.adjustedAmt = adjustedAmt;
+	}
+
+
+	public String getDescription() {
+		return description;
+	}
+
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+
+	public String getJourneyFrm() {
+		return journeyFrm;
+	}
+
+
+	public void setJourneyFrm(String journeyFrm) {
+		this.journeyFrm = journeyFrm;
+	}
+
+
+	public String getJourneyTo() {
+		return journeyTo;
+	}
+
+
+	public void setJourneyTo(String journeyTo) {
+		this.journeyTo = journeyTo;
+	}
+
+
+	public String getAdviceFlag() {
+		return adviceFlag;
+	}
+
+
+	public void setAdviceFlag(String adviceFlag) {
+		this.adviceFlag = adviceFlag;
+	}
+
+
+	public String getTravelDetail() {
+		return travelDetail;
+	}
+
+
+	public void setTravelDetail(String travelDetail) {
+		this.travelDetail = travelDetail;
+	}
+
+
+	public String getApprovRemarks() {
+		return approvRemarks;
+	}
+
+
+	public void setApprovRemarks(String approvRemarks) {
+		this.approvRemarks = approvRemarks;
+	}
+
+
+	public int getYearOfTravel() {
+		return yearOfTravel;
+	}
+
+
+	public void setYearOfTravel(int yearOfTravel) {
+		this.yearOfTravel = yearOfTravel;
+	}
+
+
+	public int getCreatedBy() {
+		return createdBy;
+	}
+
+
+	public void setCreatedBy(int createdBy) {
+		this.createdBy = createdBy;
+	}
+
+
+	public String getCreatedDate() {
+		return createdDate;
+	}
+
+
+	public void setCreatedDate(String createdDate) {
+		this.createdDate = createdDate;
+	}
+
+
+	public int getLastUpdateBy() {
+		return lastUpdateBy;
+	}
+
+
+	public void setLastUpdateBy(int lastUpdateBy) {
+		this.lastUpdateBy = lastUpdateBy;
+	}
+
+
+	public String getLastUpdateDate() {
+		return lastUpdateDate;
+	}
+
+
+	public void setLastUpdateDate(String lastUpdateDate) {
+		this.lastUpdateDate = lastUpdateDate;
+	}
+
+
+	public String getMetaRemark() {
+		return metaRemark;
+	}
+
+
+	public void setMetaRemark(String metaRemark) {
+		this.metaRemark = metaRemark;
+	}
+
+
+	public LtcDependent getDepList() {
+		return depList;
+	}
+
+
+	public void setDepList(LtcDependent depList) {
+		this.depList = depList;
+	}
+
+
+	public LtcEmpTrv getEmpTrvData() {
+		return empTrvData;
+	}
+
+
+	public void setEmpTrvData(LtcEmpTrv empTrvData) {
+		this.empTrvData = empTrvData;
+	}
+
+
+	public List<LtcEmpDepTrv> getLtcDepList() {
+		return ltcDepList;
+	}
+
+
+	public void setLtcDepList(List<LtcEmpDepTrv> ltcDepList) {
+		this.ltcDepList = ltcDepList;
+	}
+     
+     
+}

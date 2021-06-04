@@ -1,0 +1,229 @@
+package in.ecgc.smile.erp.hrd.reimbbe.model;
+
+
+import java.math.BigDecimal;
+
+public class LtcEmpDepTrv {
+
+     int ltcEmpDepTrvId;
+	
+	int ltcTxnId;
+	
+	int empNo;
+	
+	int dependentId;
+	
+	String nameOfDependent;
+	
+	String relation;
+	
+	String depTravMode;
+	
+	String depTrainType;
+	
+	String depTravClass;
+	
+	BigDecimal depFareClaimed;
+	
+	BigDecimal depFareApprov;
+	
+     String arrTravMode;
+	
+	String arrTrainType;
+	
+	String arrTravClass;
+	
+	BigDecimal arrFareClaimed;
+	
+	BigDecimal arrFareApprov;
+	
+	char status;
+	
+	 int createdBy;
+		
+	String createdDate;
+		
+	int lastUpdateBy;
+		
+	String lastUpdateDate;
+		
+	String metaRemark;
+
+	public int getLtcEmpDepTrvId() {
+		return ltcEmpDepTrvId;
+	}
+
+	public void setLtcEmpDepTrvId(int ltcEmpDepTrvId) {
+		this.ltcEmpDepTrvId = ltcEmpDepTrvId;
+	}
+
+	public int getLtcTxnId() {
+		return ltcTxnId;
+	}
+
+	public void setLtcTxnId(int ltcTxnId) {
+		this.ltcTxnId = ltcTxnId;
+	}
+
+	public int getEmpNo() {
+		return empNo;
+	}
+
+	public void setEmpNo(int empNo) {
+		this.empNo = empNo;
+	}
+
+	public int getDependentId() {
+		return dependentId;
+	}
+
+	public void setDependentId(int dependentId) {
+		this.dependentId = dependentId;
+	}
+
+	public String getNameOfDependent() {
+		return nameOfDependent;
+	}
+
+	public void setNameOfDependent(String nameOfDependent) {
+		this.nameOfDependent = nameOfDependent;
+	}
+
+	public String getRelation() {
+		return relation;
+	}
+
+	public void setRelation(String relation) {
+		this.relation = relation;
+	}
+
+	public String getDepTravMode() {
+		return depTravMode;
+	}
+
+	public void setDepTravMode(String depTravMode) {
+		this.depTravMode = depTravMode;
+	}
+
+	public String getDepTrainType() {
+		return depTrainType;
+	}
+
+	public void setDepTrainType(String depTrainType) {
+		this.depTrainType = depTrainType;
+	}
+
+	public String getDepTravClass() {
+		return depTravClass;
+	}
+
+	public void setDepTravClass(String depTravClass) {
+		this.depTravClass = depTravClass;
+	}
+
+	public BigDecimal getDepFareClaimed() {
+		return depFareClaimed;
+	}
+
+	public void setDepFareClaimed(BigDecimal depFareClaimed) {
+		this.depFareClaimed = depFareClaimed;
+	}
+
+	public BigDecimal getDepFareApprov() {
+		return depFareApprov;
+	}
+
+	public void setDepFareApprov(BigDecimal depFareApprov) {
+		this.depFareApprov = depFareApprov;
+	}
+
+	public String getArrTravMode() {
+		return arrTravMode;
+	}
+
+	public void setArrTravMode(String arrTravMode) {
+		this.arrTravMode = arrTravMode;
+	}
+
+	public String getArrTrainType() {
+		return arrTrainType;
+	}
+
+	public void setArrTrainType(String arrTrainType) {
+		this.arrTrainType = arrTrainType;
+	}
+
+	public String getArrTravClass() {
+		return arrTravClass;
+	}
+
+	public void setArrTravClass(String arrTravClass) {
+		this.arrTravClass = arrTravClass;
+	}
+
+	public BigDecimal getArrFareClaimed() {
+		return arrFareClaimed;
+	}
+
+	public void setArrFareClaimed(BigDecimal arrFareClaimed) {
+		this.arrFareClaimed = arrFareClaimed;
+	}
+
+	public BigDecimal getArrFareApprov() {
+		return arrFareApprov;
+	}
+
+	public void setArrFareApprov(BigDecimal arrFareApprov) {
+		this.arrFareApprov = arrFareApprov;
+	}
+
+	public char getStatus() {
+		return status;
+	}
+
+	public void setStatus(char status) {
+		this.status = status;
+	}
+
+	public int getCreatedBy() {
+		return createdBy;
+	}
+
+	public void setCreatedBy(int createdBy) {
+		this.createdBy = createdBy;
+	}
+
+	public String getCreatedDate() {
+		return createdDate;
+	}
+
+	public void setCreatedDate(String createdDate) {
+		this.createdDate = createdDate;
+	}
+
+	public int getLastUpdateBy() {
+		return lastUpdateBy;
+	}
+
+	public void setLastUpdateBy(int lastUpdateBy) {
+		this.lastUpdateBy = lastUpdateBy;
+	}
+
+	public String getLastUpdateDate() {
+		return lastUpdateDate;
+	}
+
+	public void setLastUpdateDate(String lastUpdateDate) {
+		this.lastUpdateDate = lastUpdateDate;
+	}
+
+	public String getMetaRemark() {
+		return metaRemark;
+	}
+
+	public void setMetaRemark(String metaRemark) {
+		this.metaRemark = metaRemark;
+	}
+	
+	
+}
